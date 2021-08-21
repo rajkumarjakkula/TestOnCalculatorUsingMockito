@@ -21,7 +21,7 @@ public class CalculatorTest {
     @Test
     void toReturnDifferenceOfTwoPositiveValues()
     {
-        double actualOutput=calc.substract(4.0,2.0);
+        double actualOutput=calc.subtract(4.0,2.0);
         double expectedOutput=2.0;
         assertEquals(actualOutput,expectedOutput);
     }
